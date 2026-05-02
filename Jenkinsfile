@@ -12,9 +12,9 @@ pipeline {
         stage('Report') {
             steps {
                 publishHTML([
-                    reportDir: 'target/cucumber-reports',
+                    reportDir: 'surefire-reports',
                     reportFiles: 'index.html',
-                    reportName: 'Cucumber Report'
+                    reportName: 'Surefire Report'
                 ])
             }
         }
