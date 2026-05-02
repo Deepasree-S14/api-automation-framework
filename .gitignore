@@ -1,29 +1,17 @@
-# Maven
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-
-# Test output
+/target/
 test-output/
 cucumber-reports/
 
-# Logs
 logs/
 *.log
 
-# IDE (Eclipse)
 .project
 .classpath
 .settings/
 .metadata/
 
-# IntelliJ
 .idea/
 *.iml
 
-# OS files
 .DS_Store
 Thumbs.db
