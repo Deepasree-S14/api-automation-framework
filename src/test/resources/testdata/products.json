@@ -1,0 +1,20 @@
+[
+  {
+    "name": "shirt",
+    "productName": "Shirt",
+    "productCategory": "Dress",
+    "productSubCategory": "Shirt",
+    "productPrice": "500",
+    "productDescription": "White Shirt",
+    "productFor": "Women"
+  },
+  {
+    "name": "laptop",
+    "productName": "Laptop",
+    "productCategory": "Electronics",
+    "productSubCategory": "Laptop",
+    "productPrice": "50000",
+    "productDescription": "Lenovo Laptop",
+    "productFor": "Everyone"
+  }
+]
