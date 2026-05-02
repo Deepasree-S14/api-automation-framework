@@ -9,14 +9,6 @@ pipeline {
             }
         }
 
-        stage('Report') {
-            steps {
-                publishHTML([
-                    reportDir: 'surefire-reports',
-                    reportFiles: 'index.html',
-                    reportName: 'Surefire Report'
-                ])
-            }
-        }
+    
     }
 }
